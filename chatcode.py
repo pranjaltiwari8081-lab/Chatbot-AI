@@ -3,7 +3,7 @@ from google import genai
 from dotenv import load_dotenv
 import os
 load_dotenv() 
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+client = genai.Client(api_key=st.secrets("GOOGLE_API_KEY"))
 st.title("Chat with AI Made by Pranjal Tiwari")
 if "messages" not in st.session_state:
     st.session_state.messages = []

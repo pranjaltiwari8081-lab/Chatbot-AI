@@ -1,4 +1,6 @@
-streamlit
-google-generativeai
+fastapi
+uvicorn
 python-dotenv
+google-genai
 pydantic
+requests
